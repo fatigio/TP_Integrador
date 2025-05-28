@@ -43,7 +43,7 @@ body{
 }
 
 
-/* TEXTOS */
+/* TEXTS */
 
 .text-center{
     text-align: center;
@@ -193,7 +193,7 @@ header .btn-menu{
 }
 
 
-/* SECCION HERO */
+/* SECTION HERO */
 
 .section-hero{
     background-color: var(--color-principal-0);
@@ -277,7 +277,7 @@ header .btn-menu{
 }
 
 
-/* SECCION SERVICIOS */
+/* SECTION SERVICES */
 
 .section-services{
     background-color: var(--color-principal-500);

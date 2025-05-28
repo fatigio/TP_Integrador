@@ -348,7 +348,7 @@ footer{
     padding: 0px 40px;
 }
 
-footer .footer-above-content{
+footer .footer-top-content{
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -357,19 +357,19 @@ footer .footer-above-content{
     max-width: 1128px;
 }
 
-footer .footer-above-content__first-section{
+footer .footer-top-content__first-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-footer .footer-above-content__logo svg{
+footer .footer-top-content__logo svg{
     color: var(--color-principal-400);
     height: 30px;
     width: 147px;
 }
 
-footer .footer-above-content__icons{
+footer .footer-top-content__icons{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -377,19 +377,19 @@ footer .footer-above-content__icons{
     gap: 16px;
 }
 
-footer .footer-above-content__icons svg{
+footer .footer-top-content__icons svg{
     width: 32px;
     height: 32px;
     color: var(--color-principal-400);
 }
 
-footer .footer-above-content__second-section{
+footer .footer-top-content__second-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-footer .footer-above-content__payments{
+footer .footer-top-content__payments{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -397,14 +397,14 @@ footer .footer-above-content__payments{
     flex-wrap: wrap;
 }
 
-footer .footer-above-content__payments img{
+footer .footer-top-content__payments img{
     width: 60px;
     height: 40px;
     border-radius: 6px;
     border: 1px solid #d5dfff;
 }
 
-footer .footer-above-content__polites{
+footer .footer-top-content__politics{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -413,7 +413,7 @@ footer .footer-above-content__polites{
     white-space: nowrap;
 }
 
-footer .footer-below-content{
+footer .footer-bottom-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -524,16 +524,16 @@ footer .footer-below-content{
 
     /* FOOTER */
 
-    footer .footer-above-content{
+    footer .footer-top-content{
         max-width: 688px;
     }
 
-    footer .footer-above-content__second-section{
+    footer .footer-top-content__second-section{
         flex-direction: column-reverse;
         gap: 16px;
     }
 
-    footer .footer-below-content{
+    footer .footer-bottom-content{
         max-width: 688px;
     }
 
@@ -593,33 +593,33 @@ footer .footer-below-content{
         padding: 0px 16px;
     }
     
-    footer .footer-above-content{
+    footer .footer-top-content{
         max-width: 508px;
     }
 
-    footer .footer-above-content__first-section{
+    footer .footer-top-content__first-section{
         flex-direction: column-reverse;
         gap: 16px;
     }
 
-    footer .footer-above-content__icons{
+    footer .footer-top-content__icons{
         justify-content: space-between;
         padding: 16px 0px;
         margin-bottom: 8px;
     }
 
-    footer .footer-above-content__polites{
+    footer .footer-top-content__politics{
         flex-wrap: wrap;
         justify-content: space-between;
         max-width: 328px;
         margin-bottom: 8px;
     }
 
-    footer .footer-above-content__payments{
+    footer .footer-top-content__payments{
         max-width: 300px;
     }
 
-    footer .footer-below-content{
+    footer .footer-bottom-content{
         max-width: 508px;
         gap: 24px;
     }
